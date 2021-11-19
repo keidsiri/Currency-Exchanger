@@ -14,4 +14,8 @@ export default class CurrentService {
       request.send();
     });
   }
+
+  convert (usd,rate) {
+    return usd/rate;
+  }
 }
