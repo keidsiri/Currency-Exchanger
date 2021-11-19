@@ -4,12 +4,37 @@
   <title>Currency Exchanger</title>
 </head>
 <body>
+  <div class="head">
+    <h1>International Currency Exchange</h1>
+  </div>
   <div class="container">
-    <h1>International currency converter</h1>
-    <label for="number">Enter USD Amount:</label>
-    <input id="number" type="number" step=0.01 placeholder="$UDS">
-    <button class="btn-success" id="currencyConvert">Submit</button>
-    <div class="showConvert"></div>
+    <div class="row">
+      <div class="col col-10">
+        <div class="card">
+          <h2>Live Exchange Rate - Currency Converter</h2>
+          <div class="row">
+            <div class="col col1">
+              <h4>USD to </h4>
+            </div>
+            <div class="col col2">
+              <input type="text" name="input" id="code" type="text">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col1">
+              <p>$
+                <input type="number" id="number">
+              </p>
+            </div>
+            <div class="col col2" id="showRate"></div>
+          </div>
+          <button type="button" id="convert2">Convert</button>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
