@@ -1,3 +1,21 @@
 body {
-  background-color: aliceblue;
+  background-image: url(../../src/assets/img/currency.jpg);
+  background-size: cover;
+  background-repeat: none;
+  font-family:'Lucida Sans Regular';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 10px 10px rgba(90, 183, 206, 0.192);
 }
