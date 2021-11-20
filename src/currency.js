@@ -20,6 +20,8 @@
 //   }
 // }
 
+
+// Refactor from Promise to Fetch:
 export class CurrentService {  
   static getCurrency(code) {
     return fetch(`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/${code}`)
