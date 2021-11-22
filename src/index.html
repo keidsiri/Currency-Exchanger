@@ -4,7 +4,7 @@
   <title>Currency Exchanger</title>
 </head>
 <body>
-  <div class="head">
+  <div class="headline">
     <h1>International Currency Exchange</h1>
   </div>
   <div class="container">
@@ -23,26 +23,26 @@
 
           <div class="row">
             <div class="col col1">
-              <p>$
-                <input type="number" id="number">
-              </p>
+              <p>$ <input type="number" id="number" placeholder="10"> </p>
             </div>
             <div class="col col2" id="showRate"></div>
           </div>
           <button class="btn btn-info" id="convert">&dollar;Convert</button>
         </div>
-
         <div class="showAllRates"></div>
-        <div class="showErrors"></div>
+        <div class="row card">
+          <div class="showErrors"></div>
+        </div>
       </div>
       
-      <div class="col col-2"></div>
+      <div class="col col-3">
         <div class="card">
-          <h4>Live Exchange Rate</h4>
-          <div class="row card" id="rateInfo">
+          <h5>Live Exchange Rate</h5>
+          <div class="card" id="rateInfo">
             <div class="showInfo"></div>
           </div>
         </div>
+      </div>
     </div>
 
   </div>
