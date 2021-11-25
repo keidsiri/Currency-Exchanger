@@ -2,7 +2,7 @@
 
 #### By _Kate Kiatsiri_
 
-#### _A currency exchange application that allow user convert the currency rates_
+#### _A currency exchange application that allow user convert the currency rates. This is 6th independent project_
 
 ## Technologies Used
 
