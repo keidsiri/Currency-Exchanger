@@ -32,7 +32,7 @@ Functionality
 * Open Currency-Exchanger folder in your code editor (VS code) then open the terminal
 * Run the command $ npm install in your terminal to install all dependencies and packages.
 * Run the command $ touch .env on the top level of your directory to create .env file 
-* Add the API_KEY on your .env file ( API_KEY={PlaceYourKeyHere} ) to get the API KEY visit 
+* Add the API_KEY on your .env file " API_KEY={PlaceYourKeyHere} " to get the API KEY visit 
 <a href="https://www.exchangerate-api.com">ExchangeRate-API</a> site. Input your email address and click the "Get Free Key" button.
 * Replace the actual API key on {PlaceYourKeyHere} and save the file.
 * Run the command $ npm run build in the terminal to build the webpack bundle.

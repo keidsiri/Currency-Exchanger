@@ -5,6 +5,7 @@ import './css/styles.css';
 import {CurrentService, convert} from './currency.js';
 
 
+
 $(document).ready(function() {
   $('#convert').click(function() {
     let code = $("#code").val();
@@ -14,11 +15,13 @@ $(document).ready(function() {
         let rate = body.conversion_rates.USD;
         let usd = $('#number').val();
         let exchange = convert(usd, rate);
+        let currency = convert(1, rate);
         $('#showRate').html(exchange);
         $('.showInfo').html(body.time_last_update_utc);
+        $('.ratePerUsd').html(currency);
       })
       .catch(function(error) {
-        $('.showErrors').html(`There is an error please try your currency code again : ${error}`);
+        $('.showErrors').html(`There is an error please try again :<br> ${error}`);
         $('ShowErrors').html();
       });
 
