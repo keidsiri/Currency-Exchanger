@@ -2,7 +2,7 @@
 
 #### By _Kate Kiatsiri_
 
-#### _A currency exchange application that allow user convert the currency rates_
+#### _A currency exchange application that allow user convert the currency rates. This is 6th independent project_
 
 ## Technologies Used
 
@@ -35,8 +35,8 @@ Functionality
 * Add the API_KEY on your .env file " API_KEY={PlaceYourKeyHere} " to get the API KEY visit 
 <a href="https://www.exchangerate-api.com">ExchangeRate-API</a> site. Input your email address and click the "Get Free Key" button.
 * Replace the actual API key on {PlaceYourKeyHere} and save the file.
-* Run the command $ npm run build in the terminal to build the webpack bundle.
-* Run the command $ npm run start to view the application.
+* Run the command '$ npm run build' in the terminal to build the webpack bundle.
+* Run the command '$ npm run start' to view the application.
 
 ## Known Bugs
 
