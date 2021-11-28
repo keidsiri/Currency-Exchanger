@@ -21,8 +21,7 @@ $(document).ready(function() {
         $('.ratePerUsd').html(currency);
       })
       .catch(function(error) {
-        $('.showErrors').html(`There is an error please try again :<br> ${error}`);
-        $('ShowErrors').html();
+        $('.showErrors').html(`The currency code doesn't exist. Please try again! <br> ${error}`);
       });
 
   });
