@@ -19,6 +19,7 @@ $(document).ready(function() {
         $('#showRate').html(exchange);
         $('.showInfo').html(body.time_last_update_utc);
         $('.ratePerUsd').html(currency);
+        $('.showErrors').html('');
       })
       .catch(function(error) {
         $('.showErrors').html(`The currency code doesn't exist. Please try again! <br> ${error}`);
@@ -27,31 +28,4 @@ $(document).ready(function() {
   });
 });
 
-
-// for ( let i = 0; i < body.length; i++) {
-//   currencyRate.push(`${body[i].conversion_rates}`);
-//   $('.showAllRates').html(currencyRate);
-
-// $(document).ready(function() {
-//   $('#cryptoConvert').click(function() {
-//   const number = $("#number").val();
-//   $('#cryptoConvert').val("");
-
-//   let promise = CryptoService.getCrypto();
-//   promise.then(function(response) {
-//     const body = JSON.parse(response);
-//     const cryptoConverter = new CryptoService.converter(body, number);
-
-//     let cryptoCurrency = [];
-//     for (let i = 0; i < body.length; i++) {
-//       cryptoCurrency.push(`<img src= ${body[i].logo_url} class='crypto-img'> <br>`);
-//       cryptoCurrency.push(`${body[i].symbol} - Rank :${body[i].rank} <br> Price: $${parseInt(body[i].price)} <hr class="new1"> <br>`);
-//       $('.showCrypto').html(cryptoCurrency);
-//       $('.showConverter').html(cryptoConverter);
-//     }  
-//   }, function(error) {
-//       $('.showErrors').text(`There was an error processing your request: ${error}`);
-//     });
-//   });
-// });
 
