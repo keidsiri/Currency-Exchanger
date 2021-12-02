@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href='./assets/img/logo.jpg'>
   <title>Currency Exchanger</title>
 </head>
 <body>
   <div class="headline">
-    <h1>International Currency Exchange</h1>
+    <h1 class="glow">International Currency Exchange</h1>
   </div>
   <div class="container">
     <div class="row">
@@ -16,7 +17,7 @@
             <div class="col col1">
               <h4> From USD To </h4>
             </div>
-            <div class="col col2">
+            <div class="col">
               <input type="text" name="input" id="code" type="text" placeholder="ex. CAD">
             </div>
           </div>
@@ -25,7 +26,7 @@
             <div class="col col1">
               <p>$ <input type="number" id="number" placeholder="10"> </p>
             </div>
-            <div class="col col2" id="showRate"></div>
+            <div class="col" id="showRate"></div>
           </div>
           <button class="btn btn-info" id="convert">&dollar;Convert</button>
         </div>
