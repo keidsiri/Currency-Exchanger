@@ -50,6 +50,13 @@ input {
 
 #code {
   text-align: center;
+  margin-right: 50%;
+  margin-bottom: 10%;
+  margin-top: -5%
+}
+
+#number {
+  margin-bottom: 5%;
 }
 
 .btn {
