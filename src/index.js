@@ -24,8 +24,20 @@ $(document).ready(function() {
       .catch(function(error) {
         $('.showErrors').html(`The currency code doesn't exist. Please try again! <br> ${error}`);
       });
-
   });
+  // $('#showRates').click(function() {
+  //   CurrentService.getRates()
+  //     .then(function(response) {
+  //       const body = response;
+  //       const allRates = body.conversion_rates;
+  //       console.log(allRates);
+  //       $('.allRates').html(allRates);
+  //     })
+  //     .catch(function(error) {
+  //       $('.showErrors').html(`There is some error for currency API : ${error}`);
+  //     });
+  // });
+
 });
 
 
